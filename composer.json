@@ -13,7 +13,10 @@
     }
   ],
   "require": {
-    "php": "^5.6|^7.0"
+    "php": "^5.6|^7.0",
+    "beancomponent/creative-work-bundle": "^0.1",
+    "beancomponent/book": "^0.1"
+
   },
   "require-dev": {
 
@@ -22,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Bean\\Bundle\\BookBundle\\": ""
+      "Bean\\Bundle\\BookBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Bean\\Bundle\\BookBundle\\spec\\": "spec/"
+      "Bean\\Bundle\\BookBundle\\spec\\": "tests/spec/"
     }
   },
   "extra": {
